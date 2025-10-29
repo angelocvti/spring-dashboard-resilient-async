@@ -58,7 +58,7 @@ Mesmo se um dos serviços (User, Order ou Review) falhar, o sistema responde com
 
 ## Conceitos aplicados
 
-✅ Programação assíncrona com CompletableFuture
-✅ Timeouts configurados com .orTimeout()
-✅ Fallbacks via .exceptionally()
+✅ Programação assíncrona com CompletableFuture\
+✅ Timeouts configurados com .orTimeout()\
+✅ Fallbacks via .exceptionally()\
 ✅ Virtual Threads (Java 21 - Loom)
