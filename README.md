@@ -62,3 +62,10 @@ Mesmo se um dos serviços (User, Order ou Review) falhar, o sistema responde com
 ✅ Timeouts configurados com .orTimeout()\
 ✅ Fallbacks via .exceptionally()\
 ✅ Virtual Threads (Java 21 - Loom)
+
+---
+
+## Referências
+
+Parte deste projeto foi inspirada no artigo:
+> [7 Habits of Highly Effective Java Coding](https://foojay.io/today/7-habits-of-highly-effective-java-coding/)
