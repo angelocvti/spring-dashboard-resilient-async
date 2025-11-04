@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  dashboard-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: angelocvti/spring-dashboard:latest
+    container_name: dashboard-service
+    ports:
+      - "8080:8080"
